@@ -166,7 +166,7 @@
   <p>Small Sided Game</p>
 </div>
 
-<div class="phase-label" id="phaseLabel">Phase 1 — Set Up</div>
+<div class="phase-label" id="phaseLabel">Set Up</div>
 
 <div class="scene">
   <div class="field">
@@ -395,23 +395,23 @@ const ph16 = {
 };
 
 const phases = [
-  { label: "Phase 1 — Set Up",                                 desc: "1v1+1 in each zone. Red and Blue play attackers↔defenders depending on who has the ball; Yellow is the joker, locked to their zone and joins whichever team has the ball there. Four small goals — two on each endline. Red starts with the ball in the right zone.", state: ph1 },
-  { label: "Phase 2 — R1 on the ball, B1 presses",             desc: "R1 has the ball in the right zone. B1 steps to press. Y1 (right-zone joker) drops into a clean passing lane.", state: ph2 },
-  { label: "Phase 3 — R1 → Y1",                                desc: "R1 plays through B1's pressure into Y1, who receives in space.", state: ph3 },
-  { label: "Phase 4 — Switch to the left zone",                desc: "Y1 plays the ball across to the left zone to free R2.", state: ph4 },
-  { label: "Phase 5 — R2 receives under pressure",             desc: "R2 receives in the left zone. B2 immediately closes the ball.", state: ph5 },
-  { label: "Phase 6 — R2 → Y2",                                desc: "R2 plays out of B2's pressure to Y2, the left-zone joker.", state: ph6 },
-  { label: "Phase 7 — Y2 → R2 (timed run)",                    desc: "B2 jumps across to press Y2. At the same moment R2 makes a run toward the small goal. Y2 slips the ball into R2's path.", state: ph7 },
-  { label: "Phase 8 — Red scores",                             desc: "R2 receives in stride and finishes into the bottom-left small goal.", state: ph8 },
+  { label: "Set Up",                                 desc: "1v1+1 in each zone. Red and Blue play attackers↔defenders depending on who has the ball; Yellow is the joker, locked to their zone and joins whichever team has the ball there. Four small goals — two on each endline. Red starts with the ball in the right zone.", state: ph1 },
+  { label: "R1 on the ball, B1 presses",             desc: "R1 has the ball in the right zone. B1 steps to press. Y1 (right-zone joker) drops into a clean passing lane.", state: ph2 },
+  { label: "R1 → Y1",                                desc: "R1 plays through B1's pressure into Y1, who receives in space.", state: ph3 },
+  { label: "Switch to the left zone",                desc: "Y1 plays the ball across to the left zone to free R2.", state: ph4 },
+  { label: "R2 receives under pressure",             desc: "R2 receives in the left zone. B2 immediately closes the ball.", state: ph5 },
+  { label: "R2 → Y2",                                desc: "R2 plays out of B2's pressure to Y2, the left-zone joker.", state: ph6 },
+  { label: "Y2 → R2 (timed run)",                    desc: "B2 jumps across to press Y2. At the same moment R2 makes a run toward the small goal. Y2 slips the ball into R2's path.", state: ph7 },
+  { label: "Red scores",                             desc: "R2 receives in stride and finishes into the bottom-left small goal.", state: ph8 },
 
-  { label: "Phase 9 — Reset: Blue ball in left zone",          desc: "Reset to starting shape. This time B2 starts with the ball in the left zone.", state: ph9 },
-  { label: "Phase 10 — B2 on the ball, R2 presses",            desc: "B2 has the ball in the left zone. R2 steps to press. Y2 drops into a clean passing lane.", state: ph10 },
-  { label: "Phase 11 — B2 → Y2",                               desc: "B2 plays through R2's pressure into Y2, who receives in space.", state: ph11 },
-  { label: "Phase 12 — Switch to the right zone",              desc: "Y2 plays the ball across to the right zone to free B1.", state: ph12 },
-  { label: "Phase 13 — B1 receives under pressure",            desc: "B1 receives in the right zone. R1 immediately closes the ball.", state: ph13 },
-  { label: "Phase 14 — B1 → Y1",                               desc: "B1 plays out of R1's pressure to Y1, the right-zone joker.", state: ph14 },
-  { label: "Phase 15 — Y1 → B1 (timed run)",                   desc: "R1 jumps across to press Y1. At the same moment B1 makes a run toward the small goal. Y1 slips the ball into B1's path.", state: ph15 },
-  { label: "Phase 16 — Blue scores",                           desc: "B1 receives in stride and finishes into the top-right small goal.", state: ph16 }
+  { label: "Reset: Blue ball in left zone",          desc: "Reset to starting shape. This time B2 starts with the ball in the left zone.", state: ph9 },
+  { label: "B2 on the ball, R2 presses",            desc: "B2 has the ball in the left zone. R2 steps to press. Y2 drops into a clean passing lane.", state: ph10 },
+  { label: "B2 → Y2",                               desc: "B2 plays through R2's pressure into Y2, who receives in space.", state: ph11 },
+  { label: "Switch to the right zone",              desc: "Y2 plays the ball across to the right zone to free B1.", state: ph12 },
+  { label: "B1 receives under pressure",            desc: "B1 receives in the right zone. R1 immediately closes the ball.", state: ph13 },
+  { label: "B1 → Y1",                               desc: "B1 plays out of R1's pressure to Y1, the right-zone joker.", state: ph14 },
+  { label: "Y1 → B1 (timed run)",                   desc: "R1 jumps across to press Y1. At the same moment B1 makes a run toward the small goal. Y1 slips the ball into B1's path.", state: ph15 },
+  { label: "Blue scores",                           desc: "B1 receives in stride and finishes into the top-right small goal.", state: ph16 }
 ];
 
 // ── DOM ──────────────────────────────────────────────────────────────
